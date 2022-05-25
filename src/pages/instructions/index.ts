@@ -4,7 +4,7 @@ export function initPageInstructions(params){
     div.innerHTML = `
     <custom-text variant="text">Presioná jugar
     y elegí: piedra, papel o tijera antes de que pasen los 10 segundos.</custom-text>
-    <custom-button role="link" onclick="window.location='http://localhost:1234/game'">¡Jugar!</custom-button>
+    <custom-button role="link" onclick="window.location='http://DESAFIO-FINAL-5/game'">¡Jugar!</custom-button>
     <custom-img class="hands">
     `
 

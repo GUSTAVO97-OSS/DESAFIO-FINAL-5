@@ -3,7 +3,7 @@ export function initPageWelcome(params){
     div.className = "welcome-page";
     div.innerHTML = `
     <custom-text variant="title">Piedra Papel ó Tijera</custom-text>
-    <custom-button role="link" onclick="window.location='http://localhost:1234/instructions'">Empezar</custom-button>
+    <custom-button role="link" onclick="window.location='http://DESAFIO-FINAL-5/instructions'">Empezar</custom-button>
     <custom-img>
     `
     return div;
