@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/transformer-image": "2.0.0-rc.0",
-    "parcel": "^2.0.0-rc.0"
+    "@parcel/transformer-image": "2.0.0-rc.0"
   },
   "scripts": {
     "dev": "parcel serve ./src/index.html",
@@ -12,6 +11,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.6.0"
   }
 }
