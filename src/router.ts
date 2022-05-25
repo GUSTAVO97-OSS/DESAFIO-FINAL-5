@@ -5,50 +5,44 @@ import { initShowHands } from "./pages/showhands"
 import { initResults } from "./pages/results"
 
 
-const routes = [{
-    path: /\/welcome/,
-    component: initPageWelcome
-},
-{
-        path: /\/instructions/,
-    component: initPageInstructions
 
-},
-{
-        path: /\/game/,
-    component: initPageGame
-
-},
-{
-        path: /\/showhands/,
-    component: initShowHands
-
-},
-{
-        path: /\/results/,
-    component: initResults
-
-}
-];
-  
-const BASE_PATH = "/desafio-m5";
-
-function isGithubPages() {
-    return location.host.includes("github.io");
-}
 
 export function initRouter(container) {
+    const routes = [{
+        path: /\/DESAFIO-FINAL-5\/welcome/,
+        component: initPageWelcome
+    },
+    {
+            path: /\/DESAFIO-FINAL-5\/instructions/,
+        component: initPageInstructions
+    
+    },
+    {
+            path: /\/DESAFIO-FINAL-5\/game/,
+        component: initPageGame
+    
+    },
+    {
+            path: /\/DESAFIO-FINAL-5\/showhands/,
+        component: initShowHands
+    
+    },
+    {
+            path: /\/DESAFIO-FINAL-5\/results/,
+        component: initResults
+    
+    }
+    ];
+    
     function goTo(path) {
-        const completePath = isGithubPages() ? BASE_PATH + path : path;
-        history.pushState({}, "", completePath);
-        handleRoute(completePath);
+        
+        history.pushState({}, "", path);
+        handleRoute(path);
     }
     function handleRoute(route) {
         console.log("El handleRoute recibió una nueva ruta", route);
-        const newRoute = isGithubPages() ? route.replace(BASE_PATH, "") : route;
-
-         
-           for (const r of routes){
+        
+        for (const r of routes){
                if(r.path.test(route)){
                    const el= r.component({goTo: goTo});
 
@@ -62,7 +56,7 @@ export function initRouter(container) {
        if (location.host.includes("github.io")) {
         goTo("/welcome")
     } else if (location.pathname == "/") {
-        goTo("/welcome")
+        goTo("DESAFIO-FINAL-5/welcome")
     }
     else { handleRoute(location.pathname); }
 
