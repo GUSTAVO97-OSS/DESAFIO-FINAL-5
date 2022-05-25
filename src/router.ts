@@ -53,10 +53,8 @@ export function initRouter(container) {
                }
            }
        }
-       if (location.host.includes("github.io")) {
-        goTo("/welcome")
-    } else if (location.pathname == "/") {
-        goTo("DESAFIO-FINAL-5/welcome")
+       if (location.host.includes("github.io") || "/") {
+        goTo("/DESAFIO-FINAL-5/welcome")
     }
     else { handleRoute(location.pathname); }
 
