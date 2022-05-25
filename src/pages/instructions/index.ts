@@ -7,8 +7,8 @@ export function initPageInstructions(params){
     <custom-button class="next">¡Jugar!</custom-button>
     <custom-img class="hands">
     `
-    const next = div.querySelector(".next")
-    next.addEventListener("click", () => {
+    const nextPage = div.querySelector(".next")
+    nextPage.addEventListener("click", () => {
         params.goTo("/game")
     })
 
