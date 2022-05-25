@@ -1,0 +1,47 @@
+.game-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/fondo.png);
+}
+@media (min-width: 768px){
+    .game-page{
+        display: flex;
+        flex-direction: column;
+        gap: 130px;
+    }
+}
+.countdown{
+    font-size: 100px;
+    font-family: 'Special Elite', cursive;
+    font-weight: 700;
+}
+
+.countdown-container{
+    height:240px;
+    width:240px;
+    background: transparent;
+    border: 23px solid #000000;
+    border-radius:120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 125px 65px;
+}
+
+.imagen-container{
+    display:flex;
+    gap: 11px;
+}
+.zoom {
+    padding: 10px;
+    transition: transform .2s;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .zoom:hover {
+    transform: scale(1.2);
+  }
