@@ -7,7 +7,7 @@
 
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-		"build": "parcel build ./src/index.html --dist-dir build --public-url /dwf-m5-desafio",
+		"build": "parcel build ./src/index.html --dist-dir build --public-url /DESAFIO-FINAL-5",
 		"deploy": "gh-pages -d build"
   },
   "dependencies": {

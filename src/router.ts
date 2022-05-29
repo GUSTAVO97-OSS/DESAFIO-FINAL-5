@@ -5,7 +5,7 @@ import { initShowHands } from "./pages/showhands"
 import { initResults } from "./pages/results"
 
 
-const BASE_PATH = "/dwf-m5-desafio";
+const BASE_PATH = "/DESAFIO-FINAL-5";
 
 const routes = [{
     path: /\/welcome/,
