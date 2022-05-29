@@ -1,4 +1,9 @@
-{
+{"name": "DESAFIO-FINAL-5",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0"
+  },
 
   "scripts": {
     "dev": "parcel serve ./src/index.html",
