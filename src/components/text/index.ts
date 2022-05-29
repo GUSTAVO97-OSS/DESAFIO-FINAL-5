@@ -19,12 +19,7 @@ export function pageTextComp(){
              text-align: center;
              margin-top: 70px;
            }
-           @media (min-width: 768px){
-             .title{
-              margin-top: 220px;
-              padding: 0px 500px;
-             }
-           }
+           
            .text{
              font-size: 40px;
              font-weigth: 600;

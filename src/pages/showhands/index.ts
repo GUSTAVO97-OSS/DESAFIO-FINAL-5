@@ -24,11 +24,7 @@ export function initShowHands(param)  {
         gap: 310px; 
         
     }
-    @media (min-width: 768px){
-        .img-container{
-            gap: 470px;
-        }
-    }
+
     .img-machine{
         -moz-transform:scaleY(-1);
         -webkit-transform:scaleY(-1);

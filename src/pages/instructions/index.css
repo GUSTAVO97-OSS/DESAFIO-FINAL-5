@@ -6,11 +6,6 @@
     background-image: url(../../images/fondo.png);
     padding: 0px 20px 0px 20px;
 }
-@media (min-width: 768px){
-    .instructions-page{
-        padding: 115px 480px 0px 480px;
-    }
-}
 .hands{
     margin-top: 70px;
 }

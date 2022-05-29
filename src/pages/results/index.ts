@@ -66,14 +66,6 @@ export function initResults(param){
     align-items: center;
     gap: 20px;
   }
-  @media (min-width: 768px){
-    .results-container{
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      padding: 0px 0px 80px 0px;
-    }
-}
   .img__result{
     margin-top: 40px;
     width: 300px;
@@ -90,6 +82,18 @@ export function initResults(param){
   }
   .score{
     margin-bottom: 10px;
+  }
+  .home-button{
+    background: #006CFC;
+    border: 10px solid #001997;
+    border-radius: 10px;
+    width: 335px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D8FCFC;
+    size: 45px;
   }
   `
   
