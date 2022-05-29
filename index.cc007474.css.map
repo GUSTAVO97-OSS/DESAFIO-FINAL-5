@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/pages/welcome/index.css"],"sourcesContent":[".welcome-page{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    background-image: url(../../images/fondo.png);\r\n}"],"names":[],"version":3,"file":"index.cc007474.css.map","sourceRoot":"/__parcel_source_root/"}
