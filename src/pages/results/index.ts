@@ -34,7 +34,7 @@ export function initResults(param){
   }
 
     
-  const button = require("url:../../images/botón.png");
+
   const style = document.createElement("style");
   div.innerHTML = `
     <div class="results-container">
@@ -48,7 +48,7 @@ export function initResults(param){
         <h3 class = you>Vos: ${currentState.history.myScore}</h3>
         <h3 class = machine>Máquina: ${currentState.history.computerScore}</h3>
     </div>
-      <img class = home-button src="${button}">
+    <button class="home-button">Volver a jugar</button>
     </div>
     </div>
   `;
