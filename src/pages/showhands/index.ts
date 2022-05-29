@@ -21,7 +21,7 @@ export function initShowHands(param)  {
         flex-direction: column;
         justify-content: center;
         align-items: center; 
-        gap: 310px; 
+        gap: 270px; 
         
     }
 

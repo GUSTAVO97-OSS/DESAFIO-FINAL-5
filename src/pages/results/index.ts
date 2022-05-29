@@ -67,7 +67,6 @@ export function initResults(param){
     gap: 20px;
   }
   .img__result{
-    margin-top: 40px;
     width: 300px;
     height: 300px;
   }
@@ -89,11 +88,9 @@ export function initResults(param){
     border-radius: 10px;
     width: 335px;
     height: 87px;
-    display: flex;
-    align-items: center;
     text-align: center;
     color: #D8FCFC;
-    size: 45px;
+    font-size: 45px;
   }
   `
   

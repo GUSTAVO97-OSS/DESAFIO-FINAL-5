@@ -7,7 +7,7 @@ export function initPageWelcome(params){
     div.innerHTML = `
     <custom-text variant="title">Piedra Papel ó Tijera</custom-text>
     <custom-button class="elbutton" path="/instructions">Empezar</custom-button>
-    <custom-img>
+    <custom-img class="hands">
     `
     const root = document.querySelector(".root");
     const next = div.querySelector(".elbutton")
