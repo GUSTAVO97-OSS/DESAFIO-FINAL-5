@@ -52,9 +52,9 @@ export function initResults(param){
     </div>
     </div>
   `;
-
+  const root = document.querySelector(".root");
   div.querySelector(".home-button").addEventListener("click", () => {
-    param.goTo("./game");
+    param.goTo("./game", root);
   });
     
 

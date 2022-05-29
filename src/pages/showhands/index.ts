@@ -63,9 +63,9 @@ export function initShowHands(param)  {
     } else if ( my == "papel") {
          imgElYou.src = papelImagen;
     }
-
+    const root = document.querySelector(".root");
     setTimeout(() => {
-        param.goTo("/results");
+        param.goTo("/results", root);
     }, 3000);
 
 

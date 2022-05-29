@@ -38,7 +38,7 @@ export function initPageGame(params){
             counter --;
         }, 1000)
 
-    
+    const root = document.querySelector(".root");
     const imgContainer = div.querySelector(".imagen-container").children;
     for (const hand of imgContainer) { 
         hand.addEventListener("click", () => {  
@@ -46,7 +46,7 @@ export function initPageGame(params){
 
             setTimeout(() => {
                 clearInterval(intervalId);
-                params.goTo("/showhands");
+                params.goTo("/showhands", root);
             }, 1300);
             console.log(type);
      
