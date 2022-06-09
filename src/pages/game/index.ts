@@ -31,7 +31,7 @@ export function initPageGame(params){
     const intervalId = setInterval(() =>{
             if(counter <= 0){
                 clearInterval(intervalId);
-                window.location.reload();
+                params.goTo("/instructions");
             }else {
                 document.getElementById("countdown").innerHTML = counter + "";
             }

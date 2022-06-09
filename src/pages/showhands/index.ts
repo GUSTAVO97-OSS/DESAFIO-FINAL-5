@@ -19,9 +19,10 @@ export function initShowHands(param)  {
     .img-container{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center; 
-        gap: 270px; 
+        gap: 270px;
+        heigth: 100vh; 
         
     }
 

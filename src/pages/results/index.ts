@@ -62,7 +62,8 @@ export function initResults(param){
   .results-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    height: 100vh;
     align-items: center;
     gap: 20px;
   }
